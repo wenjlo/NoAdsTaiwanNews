@@ -1,0 +1,17 @@
+
+services:
+  app:
+    build: .
+    image: news-app:v0.3
+  share-folder:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./LLM/models:/app/LLM/models
+#volumes:
+#  news-data:
+#    driver: local
+#    driver_opts:
+#      type: none
+#      o: bind
+#      device: /Users/chris_lo/PycharmProjects/news-parser/data:/app/data

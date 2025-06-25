@@ -1,0 +1,7 @@
+/.venv
+./debug.py
+./data
+./config.py
+./cron.log
+./LLM/models/*
+./main_.py
