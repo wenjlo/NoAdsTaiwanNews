@@ -39,4 +39,4 @@ GROUP_ID = '<CHAT GROUP ID>'
 
 
 ## Ouput
-![screenshot](img/example.png)
+![screenshot](example/example.png)
