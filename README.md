@@ -1,6 +1,7 @@
 # NoAdsTaiwanNews
 NoAdsTaiwanNews 是一個使用爬蟲爬取 Ettoday 新聞 (www.ettoday.net)
-並使用llama cpp 模型產生新聞摘要發送至telegram 的研究project
+
+使用llama cpp 模型產生新聞摘要發送至telegram 
 
 ## Installation
 安裝 docker請參考[連結](https://www.docker.com/get-started/)
